@@ -1,0 +1,58 @@
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+main {
+  margin-top: 100px;
+}
+.badge {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.abt {
+  display: flex;
+  gap: 15px;
+}
+h2 {
+  font-size: 33px;
+}
+.study {
+  display: flex;
+  align-items: center;
+}
+.study ul {
+  display: flex;
+  list-style: none;
+  gap: 33px;
+}
+.grad {
+  margin-top: 250px;
+}
+.grad ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.grad ul li {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  display: flex;
+}
+
+.slogan {
+  padding-left: 50px;
+}
+.unslog {
+  display: column;
+}
