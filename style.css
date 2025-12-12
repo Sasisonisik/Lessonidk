@@ -7,6 +7,11 @@ header ul {
 main {
   margin-top: 100px;
 }
+
+li {
+  list-style: none;
+}
+
 .badge {
   display: flex;
   justify-content: center;
@@ -63,7 +68,4 @@ h2 {
   justify-content: center;
   gap: 30px;
   padding-bottom: 20px;
-}
-.footer ul li {
-  font-style: none;
 }
