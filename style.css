@@ -7,6 +7,12 @@ header ul {
 main {
   margin-top: 100px;
 }
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 li {
   list-style: none;
@@ -59,7 +65,8 @@ h2 {
   padding-left: 50px;
 }
 .unslog {
-  display: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer ul {
@@ -67,5 +74,4 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 20px;
 }
