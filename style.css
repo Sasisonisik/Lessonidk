@@ -78,36 +78,8 @@ h2 {
   color: #222;
 }
 
-.fot-inner {
+.fotbag ul {
+  list-style: none;
   display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.fot-left img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-  display: block;
-  margin-top: 4px;
-}
-
-.fot-rows {
-  display: grid;
-  gap: 6px 24px;
-}
-
-.row {
-  display: grid;
-  grid-template-columns: 160px 1fr;
-  align-items: center;
-  column-gap: 16px;
-}
-
-.r-left {
-  font-size: 13px;
-  color: #222;
-  white-space: nowrap;
+  gap: 20px;
 }
